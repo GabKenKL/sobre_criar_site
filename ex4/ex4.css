@@ -1,0 +1,53 @@
+header {
+    background-color: rgb(255, 182, 57);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    padding: 24px;
+}
+
+header .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+body {
+    font-family: Helvetica
+}
+
+
+.inicial h1{
+    font-family: cursive;
+    font-size: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.inicial p{
+    font-family: arial;
+    font-size: 25px;
+    color: rgb(61, 61, 61);
+
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+footer {
+    background-color:rgb(255, 182, 57);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-family: sans-serif;
+    padding: 24px;
+}
+
+footer .logo {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
