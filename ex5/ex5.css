@@ -1,0 +1,82 @@
+* {
+    color: var(--cFont);
+    font-family: helvetica;
+}
+
+header {
+    padding: 50px;
+    text-align: center;
+    background-color: var(--headerBg);
+    font-family: 'Times New Roman';
+}
+
+header .logo{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+
+}
+
+.tema-claro {
+    --bg: white;
+    --btnBg: rgb(119, 119, 119);
+    --cFont: rgb(67, 67, 67);
+    --headerBg: rgb(47, 47, 47);
+
+}
+
+.tema-escuro {
+    --bg: black;
+    --btnBg: rgb(43, 43, 43);
+    --cFont: white;
+    --headerBg: rgb(43, 43, 43);
+}
+
+.btn {
+    background-color: var(--btnBg);
+    width: 100px;
+    border: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+
+}
+
+.btn2 {
+    background-color: var(--btnBg);
+    width: 100px;
+    border: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.btn2x {
+    background-color: var(--btnBg);
+    width: 150px;
+    border: none;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+body {
+    background: var(--bg);
+}
+
+body h1{
+    font-size: 50px;
+}
+
+body p{
+    font-size: 20px;
+}
